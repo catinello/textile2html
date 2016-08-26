@@ -12,5 +12,5 @@ compile:
 	$(RM) build __pycache__ $(APP).spec
 
 depends:
-	$(PIP) install textile
+	$(PIP) install textile pyinstaller
 

@@ -15,9 +15,11 @@ h3. Requirements
 
 h3. Dependency
 
-"python-textile":https://pypi.python.org/pypi/textile
+#. Implementation of "textile":https://pypi.python.org/pypi/textile in Python
+#. Compilation dependency of "PyInstaller":https://pypi.python.org/pypi/PyInstaller/3.2
 
 h3. Compile
+
 
 bc. $ make depends
 $ make compile
