@@ -1,0 +1,12 @@
+h1. textile2html
+
+A simple command line tool to convert textile to html output.
+
+Full credit goes to "txstyle.org":https://txstyle.org/
+
+bc. python3 txth.py <input.textile>
+
+
+I will provide a compiled version later as well.
+
+© "Antonino Catinello":http://antonino.catinello.eu - "BSD-License":https://github.com/catinello/textile2html/blob/master/LICENSE
