@@ -3,11 +3,12 @@
 import sys
 #import textile #postponed to convert function to avoid unnecessary loading
 
-#globals
-license = "BSD"
-version = "16.DirXmt"
-author  = "Antonino Catinello"
+#constants
+LICENSE = "BSD"
+VERSION = "16.DirXmt"
+AUTHOR  = "Antonino Catinello"
 
+#functions
 def access(filepath):
 	''' Check if a file exists and is accessible. '''
 	try:
@@ -31,7 +32,7 @@ def main():
 		print(args['CMD'] + " <input.textile>")
 		sep   = " | "
 		print(" Converter for textile to html format on the command line.")
-		print(" " + license + " License" + sep + u"\N{COPYRIGHT SIGN}" + " 2016 " + author + sep + "Version " + version)
+		print(" " + LICENSE + " License" + sep + u"\N{COPYRIGHT SIGN}" + " 2016 " + AUTHOR + sep + "Version " + VERSION)
 		print(" Full credit goes to https://txstyle.org/")
 		sys.exit(0)
 
@@ -44,5 +45,6 @@ def main():
 		print("File " + args['FILE'] + " is not accessible.")
 		sys.exit(2)
 
+#entry
 if __name__ == "__main__":
 	main()
