@@ -13,12 +13,13 @@ h3. Requirements
 | Script | python 3+ |
 | Binary | glibc 2.24+ |
 
-h3. Dependency
+h3. Dependencies
 
-#. Implementation of "textile":https://pypi.python.org/pypi/textile in Python
-#. Compilation dependency of "PyInstaller":https://pypi.python.org/pypi/PyInstaller/3.2
+| *Execution* | *Packages* |
+| Script-Runtime | "textile":https://pypi.python.org/pypi/textile |
+| Compilation | "textile":https://pypi.python.org/pypi/textile, "PyInstaller":https://pypi.python.org/pypi/PyInstaller |
 
-h3. Compile
+h3. Compilation
 
 
 bc. $ make depends
@@ -28,11 +29,12 @@ h3. Run
 
 h4. Binary
 
-bc. $ dist/txth <input.textile>
+bc. $ dist/tx2html <input.textile>
 
 h4. Script
 
-bc. $ python txth.py <input.textile>
+bc. $ make depends
+$ python tx2html.py <input.textile>
 
 
 ---

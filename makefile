@@ -2,7 +2,7 @@ PIP = /usr/bin/pip
 PY = /usr/bin/python3
 PYI = /usr/bin/pyinstaller
 RM = rm -r
-APP = txth
+APP = tx2html
 
 run:
 	$(PY) $(APP).py
